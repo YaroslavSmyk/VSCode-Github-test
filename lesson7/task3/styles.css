@@ -3,8 +3,10 @@
     margin-left: 16px;
     color: orange;
 }
-h1::first-line {
+.theory::first-line {
     font-size: 24px;
+}
+h1::first-line {
     background-color: red;
     color: white;
 }
