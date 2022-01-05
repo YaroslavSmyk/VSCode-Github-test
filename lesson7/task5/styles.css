@@ -1,8 +1,8 @@
 body {
     background-color: #bdc3c7;
 }
-h1 {
-    font-size: #9b59b6;
+body > h1:first-child {
+    color: #9b59b6;
 }
 h2 {
     color: orange;
