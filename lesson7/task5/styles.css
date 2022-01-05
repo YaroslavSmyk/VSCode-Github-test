@@ -27,10 +27,10 @@ body>div>p.hello {
     border: 2px solid blue;
 }
 [type="text"] {
-    background: gray;
+    background-color: gray;
 }
 div:nth-child(3) > p {
-    background: yellow;
+    background-color: yellow;
 }
 body>div>p:nth-child(2)  {
     border: 5px solid white;
