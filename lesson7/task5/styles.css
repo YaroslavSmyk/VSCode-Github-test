@@ -1,7 +1,7 @@
 body {
     background-color: #bdc3c7;
 }
-body > h1:first-child {
+h1 {
     color: #9b59b6;
 }
 h2 {
@@ -11,7 +11,7 @@ li {
     color: blue;
 }
 p {
-    background: yellow;
+    background-color: yellow;
 }
 input {
     border: 3px solid red;
@@ -34,7 +34,7 @@ div:nth-child(3) > p {
 div p:last-child  {
     border: 5px solid white;
 }
-div em:nth-child(3) {
+div>p:nth-child(3) > em {
     color: white;
     font-size: 20px;
 }
