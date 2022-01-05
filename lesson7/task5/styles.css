@@ -16,8 +16,8 @@ p {
 input {
     border: 3px solid red;
 }
-.hello {
-    background: white;
+body>div>p.hello {
+    background-color: white;
 }
 #special {
     border: 2px solid blue;
