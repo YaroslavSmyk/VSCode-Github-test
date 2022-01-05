@@ -32,7 +32,7 @@ body>div>p.hello {
 div:nth-child(3) > p {
     background-color: yellow;
 }
-body>div>p:nth-last-child(1)  {
+body>div> p:nth-child(3)   {
     border: 5px solid white;
 }
 body>div>p>em {
