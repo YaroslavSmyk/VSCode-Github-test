@@ -2,9 +2,9 @@ input:checked {
     margin-left: 50px;
 }
 label {
-  font: 700;
+  text-transform: uppercase;
 }
-#special:nth-child(1) {
+#special:first-letter {
     color: green;
     font-size: 100px;
 }
