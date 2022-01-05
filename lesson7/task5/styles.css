@@ -12,6 +12,11 @@ li {
 }
 p {
     background-color: yellow;
+    font-size: 25px;
+    text-transform: lowercase;  
+}
+p::first-letter{
+    text-transform: uppercase;
 }
 input {
     border: 3px solid red;
@@ -21,9 +26,6 @@ body>div>p.hello {
 }
 #special {
     border: 2px solid blue;
-}
-p {
-    font-size: 25px;
 }
 [type="text"] {
     background: gray;
