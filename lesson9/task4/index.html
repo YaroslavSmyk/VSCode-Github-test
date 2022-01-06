@@ -6,24 +6,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 <style>
-.block_red {
-    height: 200px;
+    * {
+        box-sizing: border-box;
+    }
+    .block_red, .block_green, .block_blue, .block_yellow, .block_black {
+        height: 200px;
+        width: 20%;
+        display: inline-block;
+        float: left;
+    }
+.block_red { 
     background-color: red;
 }
 .block_green {
-    height: 200px;
     background-color: green;
 }
 .block_blue {
-    height: 200px;
     background-color: blue;
 }
 .block_yellow {
-    height: 200px;
     background-color: yellow;
 }
 .block_black {
-    height: 200px;
     background-color: black;
 }
 </style>
