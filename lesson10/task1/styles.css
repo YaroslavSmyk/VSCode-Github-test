@@ -5,6 +5,7 @@
     align-items: center;
 }
 .vertical {
+    flex-direction: column;
     height: 200px;
     display: flex;
     justify-content: space-around;
