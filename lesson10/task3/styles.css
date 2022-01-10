@@ -40,6 +40,15 @@ footer {
     align-items: center;
 }
 .news {
+    display: flex;
+    flex-direction: column;
     width: 200px;
     background-color: gray;
+}
+.n {
+    display: flex;
+    justify-content: center;
+}
+.nevs {
+    list-style-type: none;
 }
