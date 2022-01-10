@@ -9,6 +9,7 @@
 }
 .navigation_item {
     margin-right: 10px;
+    /* margin-left: 0; */
 }
 footer {
     display: flex;
@@ -53,5 +54,5 @@ footer {
     list-style-type: none;
 }
 .li {
-   margin: 16px;
+   margin-bottom: 16px;
 }
