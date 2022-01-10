@@ -53,7 +53,8 @@ footer {
 }
 .nevs {
     list-style-type: none;
+    line-height: 40px;
 }
-.li {
+/* .li {
    margin-bottom: 40px;
-}
+} */
