@@ -23,6 +23,7 @@ footer {
     margin: 0px;
     display: flex;
     list-style-type: none;
+    padding-inline-start: 16px
 }
 .page {
     display: flex;
@@ -54,5 +55,5 @@ footer {
     list-style-type: none;
 }
 .li {
-   margin-bottom: 16px;
+   margin-bottom: 40px;
 }
