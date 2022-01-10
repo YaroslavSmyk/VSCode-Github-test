@@ -1,8 +1,10 @@
 .block {
     width: 100px;
     height: 100px;
-    flex-shrink: 1;
+    flex-shrink: 0;
+    flex-grow: 1;
 }
 .container {
     display: flex;
+    flex-wrap: wrap;
 }
