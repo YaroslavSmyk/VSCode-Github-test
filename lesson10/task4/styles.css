@@ -1,0 +1,24 @@
+.block_red {
+    height: 300px;
+    background-color: red;
+}
+.block_green {
+    height: 300px;
+    background-color: green;
+}
+.block_blue {
+    height: 300px;
+    background-color: blue;
+}
+.block_yellow {
+    height: 300px;
+    background-color: yellow;
+}
+.block_black {
+    height: 300px;
+    background-color: black;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
