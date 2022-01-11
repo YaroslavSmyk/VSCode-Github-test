@@ -8,13 +8,12 @@ header {
 .article { 
     flex-grow: 1;
     flex-basis: 300px;
-    /* height: auto; */
     margin: 8px;
     padding: 16px;
     background-color: bisque;
 }
 .articles-list {
-    justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
