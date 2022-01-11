@@ -1,11 +1,9 @@
 * {
     box-sizing: border-box;
 }
-
 h1 {
     text-align: center;
   }
-
 .article {
     flex: 1 0 300px;
     padding: 16px;
