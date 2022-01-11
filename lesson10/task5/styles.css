@@ -3,12 +3,12 @@ header {
     justify-content: center;
 }
 .article {
+    width: 300px;
     margin: 8px;
     padding: 16px;
     background-color: bisque;
 }
 .articles-list {
-    height: 300px;
-    flex-shrink: 0;
+    display: flex;
     flex-grow: 1;
 }
