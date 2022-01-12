@@ -10,6 +10,7 @@ h1 {
 }
 p {
     line-height: 28px;
+    text-align: center;
 }
 .html {
     font-weight: 900;
