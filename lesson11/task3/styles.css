@@ -35,7 +35,9 @@
 }
 .menu-item {
     padding: 16px;
-    /* background-color: ghostwhite; */
+}
+.menu-item:hover {
+    background-color: ghostwhite;
 }
 .dropdown:hover .menu-list {
     display: block;
