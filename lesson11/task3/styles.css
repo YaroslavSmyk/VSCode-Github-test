@@ -12,11 +12,11 @@
     opacity: 1;
 }
 .dropdown {
-    position: relative;
+    top: 16px;
+    position: absolute;
     margin: 16px;
     cursor: pointer;
     display: inline-block;
-    top: 16px;
 }
 .menu-list {
     display: none;
