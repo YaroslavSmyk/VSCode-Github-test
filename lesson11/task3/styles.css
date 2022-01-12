@@ -5,7 +5,7 @@
     background-color: lightcyan;
     color: black;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-    min-width: 120px;
+    /* min-width: 120px; */
     z-index: 1;
     position: absolute;
     list-style-type: none;
@@ -23,8 +23,11 @@
 }
 .dropdown:hover .menu-list {
     display: block;
-    background-color: ghostwhite;
+    /* background-color: ghostwhite; */
+    min-width: 120px;
     opacity: 1;
     font-size: 16px;
-    color: white;
+    /* color: white; */
+    margin: 0;
+    padding: 0;
 }
