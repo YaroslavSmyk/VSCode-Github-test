@@ -4,12 +4,11 @@
 .menu-button {
     background-color: darkgreen;
     padding: 16px;
-    opacity: 0.8;
     color: white;
     font-size: 16px;
-    
 }
 .dropdown {
+    opacity: 0.8;
     position: relative;
     margin: 16px;
     cursor: pointer;
