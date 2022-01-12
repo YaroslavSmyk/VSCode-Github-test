@@ -15,6 +15,7 @@
     cursor: pointer;
     display: inline-block;
     height: 34px;
+    top: 16px;
 }
 .menu-list {
     display: none;
@@ -36,5 +37,5 @@
 }
 .dropdown:hover .menu-list {
     display: block;
-    background-color: ghostwhite;
+    /* background-color: ghostwhite; */
 }
