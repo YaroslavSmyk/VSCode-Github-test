@@ -9,7 +9,8 @@
     font-size: 32px;
     font-weight: 700;
     color: white;
-    margin-top: 32px;
     text-align: center;
+    margin: auto;
+    margin-top: 32px;
      /* :border-box; */
 }
