@@ -2,33 +2,33 @@
     box-sizing: border-box;
 }
 .image-container {
+    display: flex;
     margin-top: 50px;
     margin-bottom: 50px;
-    /* display: block; */
-    display: flex;
 }
 .kartinka1 {
     margin: auto;
     max-width: 100%;
+    max-height: 100%;
     border-radius: 20px;
 }
 .gallery {
     display: flex;
 }
-.card1 {
+.card {
     margin: 16px;
     box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
 }
-.card2 {
+.opacity {
     filter: opacity(50%);
 }
-.card3 {
+.blur {
     filter: blur(4px);
 }
-.card4 {
+.invert {
     filter: invert(100%);
 }
-.podpis {
+.text {
     line-height: 30px;
     text-align: center;
 }
