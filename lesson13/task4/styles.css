@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+.gallery {
+    display: inline-flex;
+}
 .image {
     background-position: center;
     height: 200px;
@@ -9,5 +12,5 @@
     margin: 16px;
     border: 1px dotted grey;
     background-repeat: no-repeat;
-    display: inline-block;
+
 }
