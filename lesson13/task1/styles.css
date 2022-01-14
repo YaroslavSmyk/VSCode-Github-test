@@ -13,4 +13,5 @@
     margin: auto;
     padding-top: 32px;
     background-clip: border-box;
+    background-size: cover;
 }
