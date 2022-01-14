@@ -4,10 +4,10 @@
 .image-container {
     margin-top: 50px;
     margin-bottom: 50px;
-    display: block;
+    /* display: block; */
+    display: flex;
 }
 .kartinka1 {
-    display: flex;
     margin: auto;
     max-width: 100%;
     border-radius: 20px;
