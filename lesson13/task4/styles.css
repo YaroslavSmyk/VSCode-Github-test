@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 .gallery {
-    display: inline-flex;
+    display: flex;
 }
 .image {
     background-position: center;
