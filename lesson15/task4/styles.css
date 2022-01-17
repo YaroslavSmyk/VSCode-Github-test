@@ -3,11 +3,10 @@
 }
 .image-container {
     position: relative;
-    display: flex;
-    opacity: 0.5;
+    display: flex; 
     cursor: pointer; 
 }
-.image-container:hover {
+.image-button:hover {
     opacity: 1;
 }
 .image {
@@ -17,6 +16,7 @@
     max-width: 100%;
 }
 .image-button {
+    opacity: 0.5;
     text-align: center;
     width: 200px;
     height: 50px;
