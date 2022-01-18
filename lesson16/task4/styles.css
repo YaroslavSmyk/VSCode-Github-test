@@ -27,7 +27,7 @@ input[type="email"] {
     width: 100%;
 }
 .form-label {
-    margin-bottom: 8px;
+    margin-bottom: 4px;
 }
 .form-input {
     padding: 4px;
@@ -38,7 +38,13 @@ input[type="email"] {
     margin: 4px;
     outline: none;
     width: 100%;
+    margin-bottom: 8px;
 }
+
+.form-input:invalid {
+    border: 3px solid #ff0000;
+}
+
 .submit-button {
     height: 32px;
     background-color: #ff7f50;
