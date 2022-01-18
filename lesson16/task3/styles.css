@@ -6,7 +6,7 @@
     padding-left: 35px;
     font-size: 24px;
     margin: 16px;
-    /* display: flex; */
+    display: flex;
 }
 input[type="checkbox"] {
     visibility: hidden;
@@ -17,7 +17,7 @@ input[type="checkbox"] {
     width: 25px;
     height: 25px;
     background-color: #d3d3d3;
-    display: inline-block;
+    /* display: inline-block; */
     position: absolute;
     top: 0;
     left: 0;
