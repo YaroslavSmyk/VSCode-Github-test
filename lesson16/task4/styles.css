@@ -23,7 +23,9 @@ body {
     text-align: center;
     text-transform: uppercase;
 }
-
+.form-control {
+    margin-bottom: 8px;
+}
 .form-label {
     margin-bottom: 4px;
     display: block;
@@ -37,7 +39,6 @@ body {
     color: #808080;
     outline: none;
     margin-top: 4px;
-    margin-bottom: 8px;
 }
 
 .form-input:invalid {
