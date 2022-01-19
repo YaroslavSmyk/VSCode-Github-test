@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.page {
+body {
     height: 100vh;
     display: flex;
     background-color: bisque;
