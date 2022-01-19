@@ -40,6 +40,7 @@ body {
     color: #808080;
     outline: none;
     margin-top: 4px;
+    border: 1px solid;
 }
 
 .form-input:invalid {
