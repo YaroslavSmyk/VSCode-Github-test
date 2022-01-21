@@ -32,3 +32,6 @@
     color: green;
     fill: white;
 }
+.custom-button:hover > .bird-icon {
+    fill: green;
+}
