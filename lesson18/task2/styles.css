@@ -19,15 +19,16 @@
     cursor: pointer;
     line-height: 50px;
 }
-.custom-button:hover {
-    background-color: darkcyan;
-    color: green;
-}
 .bird-icon {
     vertical-align: middle;
     height: 32px;
     width: 32px;  
+    fill: white;
+}
+.custom-button:hover {
+    color: darkcyan;
 }
 .bird-icon:hover {
+    color: green;
     fill: white;
 }
