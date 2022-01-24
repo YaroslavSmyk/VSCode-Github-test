@@ -3,16 +3,24 @@
 }
 .container {
     margin: 32px;
- 
+    /* position: absolute; */
+    /* display: inline; */
 }
 .rect {
+    /* display: flex; */
+    vertical-align: middle;
+    /* flex-direction: column; */
     margin-bottom: 16px;
     background-color: coral;
     text-align: center;
+    /* align-items: center; */
     opacity: 0.5;
     width: 100px;
     height: 100px;
     transition: width 2s, opacity .5s;
+    line-height: 100px;
+  
+
 }
 .rect:hover {
     width: 100%;
