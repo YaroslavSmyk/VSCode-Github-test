@@ -28,6 +28,15 @@ body {
     0% {
         top: -100px;
     }
+    25% {
+        top: 100px;
+    }
+    50% {
+        top: 200px;
+    }
+    75% {
+        top: 300px;
+    }
     100% {
         top: calc(50vh-50px)
     }
