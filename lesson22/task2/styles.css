@@ -26,7 +26,7 @@
 span {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: lowercase;
-    margin: 8px;
+    padding: 8px;
     background-color: #faebd7;
     border-radius: 4px;
     margin: auto;
