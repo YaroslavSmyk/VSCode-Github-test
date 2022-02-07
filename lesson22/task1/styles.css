@@ -1,35 +1,29 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .container {
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .square {
-    width: 100px;
-    height: 100px;
-    margin: 8px;
-    background-color: #ff7f50;
-        /* background-color: #8a2be2; */
+  width: 100px;
+  height: 100px;
+  margin: 8px;
+  background-color: #ff7f50;
 }
 
 @media screen and (min-width: 600px) {
-    .square {
-        background-color: #8a2be2;
-        /* background-color: #ff7f50; */
-    } 
+  .square {
+    background-color: #8a2be2;
+  }
 }
-/* @media screen and (orientation: landscape) {
-    .container {
-        flex-direction: column;
-    }
-} */
+
 @media screen and (orientation: portrait) {
-    .container {
-        flex-direction: column;
-    }
+  .container {
+    flex-direction: column;
+  }
 }
