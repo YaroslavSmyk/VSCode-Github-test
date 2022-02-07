@@ -35,7 +35,6 @@ html {
 }
 .navigation {
     width: 20%;
-    height: 2em;
     padding: 0.5em;
 }
 
@@ -69,7 +68,7 @@ html {
     flex-grow: 1;
 
 }
-.aside {
+.news {
     width: 20%;
     padding: 0.5em;
 }
