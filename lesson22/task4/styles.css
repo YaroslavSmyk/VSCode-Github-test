@@ -19,7 +19,7 @@ html {
 .icon {
     padding: 0;
     border: none;
-    background-color: white;
+    /* background-color: white; */
     cursor: pointer;
 }
 
