@@ -10,7 +10,7 @@ html {
 .header {
     display: flex;
     height: 3em;
-    padding: 0 1em;
+    padding: 0 1em 0 1em;
     background-color: #eee;
 }
 
@@ -21,15 +21,15 @@ html {
     cursor: pointer;
 }
 .nav-list-item {
-    padding: 0;
     list-style-type: none;
     width: 20%;
-    padding: 0.5em;
 }
 
 .nav-list-link {
+    padding: 0;
     background-color: #808080;
     color: white;
+    padding: 0.5em;
     line-height: 2em;
     margin: -0.5em;
     text-decoration: none;
