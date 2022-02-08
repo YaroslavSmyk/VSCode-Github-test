@@ -1,48 +1,60 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 .header {
-    display: flex;
-    height: 3em;
-    padding: 0 1em 0 1em;
-    background-color: #eee;
+  display: flex;
+  height: 3em;
+  padding: 0 1em 0 1em;
+  background-color: #eee;
 }
 
 .icon {
-    font-size: 2em;
-    padding: 0;
-    border: none;
-    cursor: pointer;
+  padding: 0;
+  border: none;
+  cursor: pointer;
 }
-.nav-list-item {
-    list-style-type: none;
-    width: 20%;
+.fa-bars {
+  font-size: 2em;
+}
+
+.nav-list {
+  padding: 0;
+  list-style-type: none;
+  width: 20%;
+  padding: 0.5em;
 }
 
 .nav-list-link {
-    padding: 0;
-    background-color: #808080;
-    color: white;
-    padding: 0.5em;
-    line-height: 2em;
-    margin: -0.5em;
-    text-decoration: none;
+  display: block;
+  background-color: #808080;
+  padding: 0;
+  color: white;
+  padding: 0.5em;
+  line-height: 2em;
+  margin: -0.5em;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .nav-list-item {
-    padding: 0.5em;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    color: white;
+  padding: 0.5em;
+  /* color: white; */
 }
-/* @media screen and (min-width: 600px) {
-    .icon {
-        
-    }
-} */
+
+@media screen and (min-width: 600px) {
+  .icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main {
+    display: none;
+  }
+}
