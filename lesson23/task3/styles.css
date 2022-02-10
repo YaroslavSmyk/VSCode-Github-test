@@ -18,6 +18,7 @@ body {
 }
 
 .menu {
+  display: flex;
   margin-left: 3em;
   padding-top: 0;
   padding-bottom: 0;
@@ -26,11 +27,16 @@ body {
   color: #fff;
 }
 
+.menu__item_active {
+  color: yellow;
+}
+
 .menu__item-text:hover {
   background-color: #9acd32;
 }
 
 .menu__item-text {
+  margin: auto;
   padding: 16px;
 }
 
@@ -50,10 +56,6 @@ body {
 
 .submenu__item {
   padding: 8px;
-}
-
-.menu__item_active {
-  color: yellow;
 }
 
 .submenu__item:hover {

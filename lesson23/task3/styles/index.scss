@@ -10,20 +10,24 @@ body {
 }
 
 .menu {
+    display: flex;
     margin-left: 3em;
     padding-top: 0;
     padding-bottom: 0;
     text-transform: uppercase;
     padding: 0 8px;
-    color: #fff;
-    
+    color: #fff;  
+}
 
+.menu__item_active {
+    color: yellow;
 }
 .menu__item-text:hover {
     background-color: #9acd32;
 }
 
 .menu__item-text {
+    margin: auto;
     padding: 16px;
 }
 .submenu {
@@ -41,10 +45,6 @@ body {
 }
 .submenu__item {
     padding: 8px;
-}
-.menu__item_active {
-    color: yellow;
-
 }
 .submenu__item:hover {
     color: black;
